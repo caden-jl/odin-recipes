@@ -1,0 +1,16 @@
+body {
+    color: white;
+    background-color: black;
+    font-size: 21px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+a {
+    color:aqua;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color:pink;
+}
