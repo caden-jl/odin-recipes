@@ -1,16 +1,48 @@
 body {
     color: white;
     background-color: black;
-    font-size: 21px;
+    font-size: 26px;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
-a {
-    color:aqua;
-    text-decoration: none;
+h1, h2, h3, h4, h5 {
+    text-align: center;
+    color: pink;
+    font-weight: bold;
 }
+/* how to change heading sizes? */
+
+/*
+ol, ul {
+    text-align: center;
+}
+*/
+
+.center {
+    display: block;
+    margin: auto;
+}
+/* .center is for img */
 
 a:hover,
 a:focus {
-    color:pink;
+    color: pink;
 }
+
+.box {
+    background-color:aqua;
+    text-decoration:none;
+    padding: 1em 1em;
+    margin: 50px;
+}
+
+.recipe-list {
+    list-style: none;
+    text-align: center;
+}
+
+.recipe {
+    color: aqua;
+    font-size: 30px;
+}
+
