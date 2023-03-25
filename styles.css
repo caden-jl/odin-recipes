@@ -34,6 +34,8 @@ a:focus {
     text-decoration:none;
     padding: 1em 1em;
     margin: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .recipe-list {
