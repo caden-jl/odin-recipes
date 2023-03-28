@@ -29,14 +29,24 @@ a:focus {
     color: pink;
 }
 
+.container { 
+    display: flex;
+    justify-content: center;
+}
+
+.container > a {
+    background-color:aqua;
+    text-decoration:none;
+    padding: 1em 1em;
+    margin: 20px;
+}
+/* don't need anymore bc of .container > a (used to have .box for each a child element)
 .box {
     background-color:aqua;
     text-decoration:none;
     padding: 1em 1em;
-    margin: 50px;
-    display: flex;
-    justify-content: center;
-}
+    margin: 20px;
+} */
 
 .recipe-list {
     list-style: none;
@@ -47,4 +57,3 @@ a:focus {
     color: aqua;
     font-size: 30px;
 }
-

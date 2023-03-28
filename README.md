@@ -1,7 +1,8 @@
 # odin-recipes
 My first website project demonstrating what I've learned in TOP so far!
 
-Link to live page: https://caden-jl.github.io/odin-recipes
+Link to live page: https://caden-jl.github.io/odin-recipes 
+
 Link to instructions: https://www.theodinproject.com/lessons/foundations-recipes 
 
 I am using HTML to curate recipes by creating a main index with links to 
