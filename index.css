@@ -1,0 +1,9 @@
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li {
+    background-color: gray;
+    padding: 30px;
+}
